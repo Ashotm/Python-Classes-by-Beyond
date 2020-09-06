@@ -1,6 +1,0 @@
-#this file should be on GitHub repo
-def GCD(x,y):
-    MyMin = min(x,y)
-    for i in range(2, MyMin):
-        if
-    #return print(MyMin)
