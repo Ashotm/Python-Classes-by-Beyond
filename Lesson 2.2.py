@@ -22,3 +22,5 @@ print(Matrix1Inv,"\n", np.dot(Matrix1Inv, Matrix1),"\n",  Str)
 #Task 5
 Matrix3 = np.random.randint(1,10, size=[3,3])
 np.save("Matrix3", Matrix3)
+LoadMatrix3 = np.load("Matrix3.npy")
+print (Matrix3, "\n", LoadMatrix3)
